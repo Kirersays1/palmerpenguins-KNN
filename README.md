@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # palmerpenguins-KNN
-Based on the work of alisonhorst i made a little cluster agruppation using KNN
-=======
+Based on the work of alisonhorst i made a little cluster agruppation using K-means
+
 # Clustering Antartic Penguin Species
 
 ![Alt text](https://imgur.com/orZWHly.png=80)
@@ -17,6 +16,9 @@ You have been asked to support a team of researchers who have been collecting da
 .
 ├── data
 │   └── penguins.csv
+├── images
+│   ├── elbow.png
+│   └── kmeans.png
 ├── notebook
 │   └── notebook.ipynb
 └── README.md
@@ -38,7 +40,7 @@ flipper_length_mm | flipper length (mm)
 body_mass_g | body mass (g)
 sex | penguin sex
 
-Unfortunately, they have not been able to record the species of penguin, but they know that there are **at least three** species that are native to the region: **Adelie**, **Chinstrap**, and **Gentoo**.  Your task is to apply your data science skills to help them identify groups in the dataset!
+Unfortunately, they have not been able to record the species of penguin, but they know that there are **at least three** species that are native to the region: **Adelie**, **Chinstrap**, and **Gentoo**. Your task is to apply your data science skills to help them identify groups in the dataset!
 
 ---
 
@@ -68,8 +70,6 @@ Install dependencies:
 
 ## Running the Project
 
-### Run the EDA Notebook
-
 ```bash
 jupyter notebook ./notebook/notebook.ipynb
 ```
@@ -83,4 +83,3 @@ jupyter notebook ./notebook/notebook.ipynb
 ## Inspiration
 
 Based on the DataCamp project.
->>>>>>> c1f0330 (Added info and images)
